@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Portfolio</title>
+    <style>
+        /* General Styling */
+        @keyframes gradientBackground {
+            0% { background-color: #ff7e5f; }
+            25% { background-color: #feb47b; }
+            50% { background-color: #6dd5ed; }
+            75% { background-color: #2193b0; }
+            100% { background-color: #ff7e5f; }
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            animation: gradientBackground 10s infinite;
+            background-size: 400% 400%;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #4CAF50, #2193b0);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #333;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        nav ul li a:hover {
+            background: #4CAF50;
+            transform: scale(1.1);
+            border-radius: 5px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(to left, #6dd5ed, #feb47b);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: #2193b0;
+        }
+    </style>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Portfolio</title>
+    <style>
+        /* General Styling */
+        @keyframes gradientBackground {
+            0% { background-color: #ff7e5f; }
+            25% { background-color: #feb47b; }
+            50% { background-color: #6dd5ed; }
+            75% { background-color: #2193b0; }
+            100% { background-color: #ff7e5f; }
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            animation: gradientBackground 5s infinite;
+            background-size: 400% 400%;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right,#FFA500, #0000FF);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #333;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white ;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        nav ul li a:hover {
+            background: #0000FF;
+            transform: scale(1.1);
+            border-radius: 5px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white ;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(to right,#FFA500, #0000FF);
+            color: white ;
+            text-align: center;
+            padding: 1.5rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: #2193b0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rohit Salve - Portfolio</h1>
+        <p>Let’s create, innovate, and inspire!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hi, I’m Rohit, and I’m currently pursuing a Bachelor of Technology (B.Tech) in Mechanical Engineering at MITAOE. 
+              As a first-year student, I’m eager to explore the diverse and dynamic field of mechanical engineering, from robotics and automation to sustainable energy solutions. 
+              My passion for understanding how things work and improving systems drives my studies, and 
+             I’m excited about the opportunities to apply my knowledge in real-world projects as I progress in my academic journey.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm a passionate and driven individual with a strong interest in continuous learning and creative problem-solving.
+               I enjoy exploring new challenges, whether it's through academics, sports, or personal projects. With a mix of analytical thinking and hands-on experience,
+               I strive to bring energy, curiosity, and precision to everything I do.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Class 10th</li>
+                <li>Class 12th</li>
+                <li>Bachelor's in Mechanical Engineering, MIT Academy of Engineering</li>
+                <li></li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Fusion 360</li>
+                <li>Catia</li>
+                <li>AutoCAD</li>
+                <li>C Language</li>
+                <li>CSS</li>
+                <li>HTML</li>
+
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website:</strong> Designing an engaging and modern personal website.</li>
+                <li><strong>Tools Design:</strong> Creating tools used in industry applications.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:rohit.salve@gmail.com">rohit.salve@gmail.com</a></p>
+            <p>Phone: <a href="tel:+918465333461">+91 8465333461</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rohit | All Rights Reserved | <a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
